@@ -1,0 +1,63 @@
+TEST 1
+*This student has the potential to get any grade in the range of B to A+
+
+Welcome to the CSCE 155A Grade Calculator!
+You can calculate how many points you need on the final exam.
+
+Enter your total homework points (out of 600): 550
+Enter your total lab points (out of 600): 550
+Enter your total midterm points (out of 600): 550
+Enter your total PRS exam points (out of 100): 85
+Enter your total extra credit points (out of 250): 200
+
+Your total homework grade is 91.7%
+Your total lab grade is 91.7%
+Your total exam grade is 90.7%
+
+Points needed on final to get an A+: 385.1 points, or 96.3%
+Points needed on final to get an A: 266 points, or 66.5%
+Points needed on final to get an A-: 226 points, or 56.5%
+Points needed on final to get a B+: 146 points, or 36.5%
+Points needed on final to get a B: 26 points, or 6.5%
+Points needed on final to get a B-: -14 points, or -3.5%
+Points needed on final to get a C+: -94 points, or -23.5%
+Points needed on final to get a C: -214 points, or -53.5%
+Points needed on final to get a C-: -254 points, or -63.5%
+Points needed on final to get a D+: -334 points, or -83.5%
+Points needed on final to get a D: -454 points, or -113.5%
+Points needed on final to get a D-: -494 points, or -123.5%
+Anything below -494 points or -123.5% will result in an F
+
+Good luck!
+__________________________________________________________________________________________________
+TEST 2
+*This student has the potential to get any grade in the range of D to C+
+
+Welcome to the CSCE 155A Grade Calculator!
+You can calculate how many points you need on the final exam.
+
+Enter your total homework points (out of 600): 472
+Enter your total lab points (out of 600): 56
+Enter your total midterm points (out of 600): 600
+Enter your total PRS exam points (out of 100): 79
+Enter your total extra credit points (out of 250): 248
+
+Your total homework grade is 78.7%
+Your total lab grade is 9.3%
+Your total exam grade is 97%
+
+Points needed on final to get an A+: 865.1 points, or 216.3%
+Points needed on final to get an A: 746 points, or 186.5%
+Points needed on final to get an A-: 706 points, or 176.5%
+Points needed on final to get a B+: 626 points, or 156.5%
+Points needed on final to get a B: 506 points, or 126.5%
+Points needed on final to get a B-: 466 points, or 116.5%
+Points needed on final to get a C+: 386 points, or 96.5%
+Points needed on final to get a C: 266 points, or 66.5%
+Points needed on final to get a C-: 226 points, or 56.5%
+Points needed on final to get a D+: 146 points, or 36.5%
+Points needed on final to get a D: 26 points, or 6.5%
+Points needed on final to get a D-: -14 points, or -3.5%
+Anything below -14 points or -3.5% will result in an F
+
+Good luck!
