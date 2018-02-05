@@ -1,2 +1,0 @@
-# CSCE-155A
-CSCE 155A work
