@@ -1,0 +1,4 @@
+Pretzels,1.50,5
+Banana,1.00,3
+Chips,1.75,2
+Cookie,0.75,1

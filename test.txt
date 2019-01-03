@@ -1,0 +1,131 @@
+TEST 1
+
+Test Case: This test shows the use of only the drinks vending machine. Only valid inputs are entered
+and the quantity of the selected item can be seen to decrease by 1. The user then uses the displayed
+exit option.
+
+Welcome to the vending machines!
+
+Please select a vending machine: 
+A-Drinks, B-Snacks, X-Exit: 
+a
+Item#               Item                Price               Quantity            
+1                   Milk                $2.00               1                   
+2                   OJ                  $2.50               6                   
+3                   Water               $1.50               4                   
+4                   Cola                $2.00               5                   
+Please enter some money into the machine (enter -1 to exit): 
+5
+You now have $5.00 to spend.
+Please make a selection (enter 0 to exit)
+1
+You selected: Milk
+Vending item...
+Returning change: $3.00
+
+Please select a vending machine: 
+A-Drinks, B-Snacks, X-Exit: 
+a
+Item#               Item                Price               Quantity            
+1                   Milk                $2.00               0                   
+2                   OJ                  $2.50               6                   
+3                   Water               $1.50               4                   
+4                   Cola                $2.00               5                   
+Please enter some money into the machine (enter -1 to exit): 
+-1
+Thanks! Come Again.
+
+_______________________________________________________________________________________________
+TEST 2
+
+Test Case: This test shows the use of both vending machines and exception handling. The user quits
+in a different manner than the user in TEST 1.
+
+Welcome to the vending machines!
+
+Please select a vending machine: 
+A-Drinks, B-Snacks, X-Exit: 
+b
+Item#               Item                Price               Quantity            
+1                   Pretzels            $1.50               5                   
+2                   Banana              $1.00               3                   
+3                   Chips               $1.75               2                   
+4                   Cookie              $0.75               1                   
+Please enter some money into the machine (enter -1 to exit): 
+1
+You now have $1.00 to spend.
+Please make a selection (enter 0 to exit)
+1
+Not enough money for this item.
+Enter more money (enter -1 to exit) 
+fd
+Please enter a valid dollar value #.##
+Enter more money (enter -1 to exit) 
+2
+You now have $3.00 to spend.
+Please make a selection (enter 0 to exit)
+3
+You selected: Chips
+Vending item...
+Returning change: $1.25
+
+Please select a vending machine: 
+A-Drinks, B-Snacks, X-Exit: 
+a
+Item#               Item                Price               Quantity            
+1                   Milk                $2.00               1                   
+2                   OJ                  $2.50               6                   
+3                   Water               $1.50               4                   
+4                   Cola                $2.00               5                   
+Please enter some money into the machine (enter -1 to exit): 
+2
+You now have $2.00 to spend.
+Please make a selection (enter 0 to exit)
+4
+You selected: Cola
+Vending item...
+Returning change: $0.00
+
+Please select a vending machine: 
+A-Drinks, B-Snacks, X-Exit: 
+88
+Please enter a valid input.
+
+Please select a vending machine: 
+A-Drinks, B-Snacks, X-Exit: 
+a
+Item#               Item                Price               Quantity            
+1                   Milk                $2.00               1                   
+2                   OJ                  $2.50               6                   
+3                   Water               $1.50               4                   
+4                   Cola                $2.00               4                   
+Please enter some money into the machine (enter -1 to exit): 
+sfd
+Please enter a valid dollar value #.##
+Please enter some money into the machine (enter -1 to exit): 
+gf7
+Please enter a valid dollar value #.##
+Please enter some money into the machine (enter -1 to exit): 
+4.25
+You now have $4.25 to spend.
+Please make a selection (enter 0 to exit)
+17
+Please make a valid selection.
+Please make a selection (enter 0 to exit)
+2
+You selected: OJ
+Vending item...
+Returning change: $1.75
+
+Please select a vending machine: 
+A-Drinks, B-Snacks, X-Exit: 
+b
+Item#               Item                Price               Quantity            
+1                   Pretzels            $1.50               5                   
+2                   Banana              $1.00               3                   
+3                   Chips               $1.75               1                   
+4                   Cookie              $0.75               1                   
+Please enter some money into the machine (enter -1 to exit): 
+-1
+Thanks! Come Again.
+
