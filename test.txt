@@ -1,131 +1,164 @@
 TEST 1
 
-Test Case: This test shows the use of only the drinks vending machine. Only valid inputs are entered
-and the quantity of the selected item can be seen to decrease by 1. The user then uses the displayed
-exit option.
+TEST CASE: This test is a repeat of the test run shown on the Homework 5 rubric.
+------------------------------------------------
 
-Welcome to the vending machines!
+Welcome to Weather Data Processing System!
+You can process weather information using this system.
 
-Please select a vending machine: 
-A-Drinks, B-Snacks, X-Exit: 
-a
-Item#               Item                Price               Quantity            
-1                   Milk                $2.00               1                   
-2                   OJ                  $2.50               6                   
-3                   Water               $1.50               4                   
-4                   Cola                $2.00               5                   
-Please enter some money into the machine (enter -1 to exit): 
-5
-You now have $5.00 to spend.
-Please make a selection (enter 0 to exit)
+Please select a feature you wish to use: 
+1.   Weather Record
+2.   Averages
+3.   Maximums
+4.   Minimums
+5.   Total Precipitation
+6.   Extremes
+0.   Quit
 1
-You selected: Milk
-Vending item...
-Returning change: $3.00
+Please enter a month to view (1-12): 
+6
+Please enter a day to view: 
+5
+Location: Eagle, NE 	 Date: June 5, 2008
+High Temp: 81 	 Low Temp: 64
+Avg Wind: 20 	 Max Wind: 58
+Precipitation: 0.71 inches
 
-Please select a vending machine: 
-A-Drinks, B-Snacks, X-Exit: 
-a
-Item#               Item                Price               Quantity            
-1                   Milk                $2.00               0                   
-2                   OJ                  $2.50               6                   
-3                   Water               $1.50               4                   
-4                   Cola                $2.00               5                   
-Please enter some money into the machine (enter -1 to exit): 
--1
-Thanks! Come Again.
+Location: New York, NY 	 Date: June 5, 2008
+High Temp: 73 	 Low Temp: 62
+Avg Wind: 2 	 Max Wind: 28
+Precipitation: 0.02 inches
 
-_______________________________________________________________________________________________
+Location: Houston, TX 	 Date: June 5, 2008
+High Temp: 91 	 Low Temp: 79
+Avg Wind: 11 	 Max Wind: 28
+Precipitation: 0.15 inches
+
+Location: Los Angeles, CA 	 Date: June 5, 2008
+High Temp: 77 	 Low Temp: 55
+Avg Wind: 2 	 Max Wind: 16
+Precipitation: 0.00 inches
+
+
+Press [1] for Main Menu or [0] to Quit
+0
+Exiting program.
+
+____________________________________________________________________________________________________
+
 TEST 2
 
-Test Case: This test shows the use of both vending machines and exception handling. The user quits
-in a different manner than the user in TEST 1.
+TEST CASE: This test displays that the program can handle invalid inputs and can perform other features.
 
-Welcome to the vending machines!
+----------------------------------------------------------------------------
 
-Please select a vending machine: 
-A-Drinks, B-Snacks, X-Exit: 
-b
-Item#               Item                Price               Quantity            
-1                   Pretzels            $1.50               5                   
-2                   Banana              $1.00               3                   
-3                   Chips               $1.75               2                   
-4                   Cookie              $0.75               1                   
-Please enter some money into the machine (enter -1 to exit): 
-1
-You now have $1.00 to spend.
-Please make a selection (enter 0 to exit)
-1
-Not enough money for this item.
-Enter more money (enter -1 to exit) 
-fd
-Please enter a valid dollar value #.##
-Enter more money (enter -1 to exit) 
+Welcome to Weather Data Processing System!
+You can process weather information using this system.
+
+Please select a feature you wish to use: 
+1.   Weather Record
+2.   Averages
+3.   Maximums
+4.   Minimums
+5.   Total Precipitation
+6.   Extremes
+0.   Quit
+abcdefghijklmnop
+Please enter an integer.
+9
+Please enter a valid selection.
+6
+Select a location: 
+1.   Eagle, NE
+2.   New York, NY
+3.   Houston, TX
+4.   Los Angeles, CA
+0.   Quit
 2
-You now have $3.00 to spend.
-Please make a selection (enter 0 to exit)
+New York, NY Extremes:
+Highest Temp: 98.0		 on June 9
+Lowest Temp: 13.0		 on February 10
+Max Wind: 189.0			 on February 1
+Max Precipitation: 11.08	 on September 25
+
+Press [1] for Main Menu or [0] to Quit
+1
+
+Welcome to Weather Data Processing System!
+You can process weather information using this system.
+
+Please select a feature you wish to use: 
+1.   Weather Record
+2.   Averages
+3.   Maximums
+4.   Minimums
+5.   Total Precipitation
+6.   Extremes
+0.   Quit
 3
-You selected: Chips
-Vending item...
-Returning change: $1.25
+Please select a data type to view: 
+1.   High Temp
+2.   Low Temp
+3.   Average Wind
+4.   Max Wind
+5.   Precipitation
+0.   Exit
+5
+Maximum precipitation by month.
 
-Please select a vending machine: 
-A-Drinks, B-Snacks, X-Exit: 
-a
-Item#               Item                Price               Quantity            
-1                   Milk                $2.00               1                   
-2                   OJ                  $2.50               6                   
-3                   Water               $1.50               4                   
-4                   Cola                $2.00               5                   
-Please enter some money into the machine (enter -1 to exit): 
-2
-You now have $2.00 to spend.
-Please make a selection (enter 0 to exit)
-4
-You selected: Cola
-Vending item...
-Returning change: $0.00
+January: Eagle: 0.21
+January: New York: 1.50
+January: Houston: 1.71
+January: Los Angeles: 0.94
+February: Eagle: 0.32
+February: New York: 1.50
+February: Houston: 1.21
+February: Los Angeles: 0.33
+March: Eagle: 0.82
+March: New York: 1.50
+March: Houston: 1.23
+March: Los Angeles: 0.08
+April: Eagle: 1.05
+April: New York: 1.50
+April: Houston: 1.04
+April: Los Angeles: 0.06
+May: Eagle: 1.08
+May: New York: 1.50
+May: Houston: 1.87
+May: Los Angeles: 0.00
+June: Eagle: 3.03
+June: New York: 0.59
+June: Houston: 1.81
+June: Los Angeles: 0.00
+July: Eagle: 1.27
+July: New York: 0.25
+July: Houston: 1.48
+July: Los Angeles: 0.00
+August: Eagle: 0.46
+August: New York: 0.72
+August: Houston: 3.05
+August: Los Angeles: 0.00
+September: Eagle: 1.38
+September: New York: 11.08
+September: Houston: 8.19
+September: Los Angeles: 0.01
+October: Eagle: 2.01
+October: New York: 1.50
+October: Houston: 4.08
+October: Los Angeles: 0.03
+November: Eagle: 0.83
+November: New York: 0.51
+November: Houston: 1.14
+November: Los Angeles: 0.32
+December: Eagle: 0.45
+December: New York: 1.50
+December: Houston: 0.72
+December: Los Angeles: 0.51
 
-Please select a vending machine: 
-A-Drinks, B-Snacks, X-Exit: 
-88
-Please enter a valid input.
-
-Please select a vending machine: 
-A-Drinks, B-Snacks, X-Exit: 
-a
-Item#               Item                Price               Quantity            
-1                   Milk                $2.00               1                   
-2                   OJ                  $2.50               6                   
-3                   Water               $1.50               4                   
-4                   Cola                $2.00               4                   
-Please enter some money into the machine (enter -1 to exit): 
-sfd
-Please enter a valid dollar value #.##
-Please enter some money into the machine (enter -1 to exit): 
-gf7
-Please enter a valid dollar value #.##
-Please enter some money into the machine (enter -1 to exit): 
-4.25
-You now have $4.25 to spend.
-Please make a selection (enter 0 to exit)
-17
-Please make a valid selection.
-Please make a selection (enter 0 to exit)
-2
-You selected: OJ
-Vending item...
-Returning change: $1.75
-
-Please select a vending machine: 
-A-Drinks, B-Snacks, X-Exit: 
-b
-Item#               Item                Price               Quantity            
-1                   Pretzels            $1.50               5                   
-2                   Banana              $1.00               3                   
-3                   Chips               $1.75               1                   
-4                   Cookie              $0.75               1                   
-Please enter some money into the machine (enter -1 to exit): 
--1
-Thanks! Come Again.
-
+Press [1] for Main Menu or [0] to Quit
+quit
+Please enter a valid option:
+3
+Please enter a valid option:
+0
+Exiting program.
